@@ -26,11 +26,9 @@ with col1:
                           rtc_configuration={
                             "iceServers": [
                                 {
-                                    "urls": ["stun:stun.l.google.com:19302"],
-                                    "urls": ["stun:stun.2.google.com:19302"],
-                                    "urls": ["stun:stun.3.google.com:19302"],
-                                    "urls": ["stun:stun.4.google.com:19302"],
-                                    "urls": ["stun:stun.5.google.com:19302"]
+                                    "urls": ["turns:openrelay:mtred:ca:80",
+                                    "username": "openrelayproject",
+                                    "credential": "openrelayproject",
                                  }
                             ]
                             },
